@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .Center {
+            display: block;
+            width: 33%;
+            margin: 12px auto;
+            color: aliceblue;
+            position: absolute;
+        }
+        
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 33px;
+            top: 12px;
+        }
+        
+        .navbar {
+            display: inline-block;
+        }
+        
+        .navbar ul {
+            padding-top: 2px;
+        }
+        
+        .navbar li {
+            display: inline-block;
+        }
+        
+        .navbar li a {
+            text-decoration: none;
+            padding: 4px 6px;
+            color: black;
+            color: aliceblue;
+        }
+        
+        .navbar li :hover {
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="Center">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/Login.html">Login </a></li>
+                    <!-- <li><a href="/Signup.html">Sign up</a></li> -->
+                    <li><a href="/About.html">About</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <div class="search">
+                <input type="text" name="Search" id="Search" placeholder="search">
+            </div>
+        </div>
+    </header>
+
+    <img src="logo.jpg" alt="Logo" width="2100px" height="1000px">
+
+</body>
+
+</html>
